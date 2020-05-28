@@ -1,0 +1,13 @@
+private void panel1_MouseUp(object sender, MouseEventArgs e)
+{
+erase = false;
+painting = false;
+//lastX = 0;
+//lastY = 0;
+}
+
+private void button1_Click(object sender, EventArgs e)
+{
+Graphics g = panel1.CreateGraphics();
+g.Clear(Color.White);
+}
